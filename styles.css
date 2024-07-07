@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.header-web {
+    height: 90px;
+    background-color: rgb(248, 86, 6);
+    color:white
+}
+
+.nav-top-info {
+    height:25px;
+    margin-left: 50px;
+    margin-right:50px;
+}
+.nav-top-links {
+    display: flex;
+    width:40%;
+    justify-content: space-between;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.nav-logo {
+    width: 120px;
+    height: 50px;
+}
+
+.daraz-logo {
+    width:100%;
+    height:100%;
+    background-image: url("images/daraz-logo.png");
+    background-size: cover;
+}
+
+.border {
+    border: 2px solid transparent;
+    border-radius: 10%;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
