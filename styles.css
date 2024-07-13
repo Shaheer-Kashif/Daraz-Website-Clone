@@ -153,8 +153,47 @@
 }
 
 .hero-section {
+    display: flex;
     height:550px;
     background-image: url("images/hero-section.jpg");
     background-size: cover;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-tag {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 219, 201);
+    opacity: 0.7;
+    width: 65%;
+    height: 40px;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-delay: 100ms;
+    transition-timing-function:ease-in-out;
+}
+
+.hero-tag:hover {
+    opacity: 1;
+    scale: 1.01;
+}
+
+.main-hr {
+    color:rgb(160, 160, 160);
+}
+
+.hero-tag-ele {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-tag-ele span {
+    margin-left: 5px;
 }
 
