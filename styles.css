@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(245, 245, 245);
+}
+
 .header-web {
     height: 90px;
     background-color: rgb(248, 86, 6);
@@ -196,4 +200,69 @@
 .hero-tag-ele span {
     margin-left: 5px;
 }
+
+.category-first-section {
+    display: flex;
+    justify-content: center;
+}
+
+.category-second-section {
+    display: flex;
+    justify-content: center;
+}
+
+.categories {
+    display:flex;
+    flex-direction : column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    margin:5px;
+}
+
+.categories .category-text {
+    text-align: center;
+
+}
+
+#category-wardrobe {
+    background-image: url("images/Categories/Wardrobe-Furniture-PNG-Images-HD.png");
+    margin-left: 8px;
+}
+
+#category-moisturizers {
+    background-image: url("images/Categories/Moisturizers.jpg");
+}
+
+#category-shampoo {
+    background-image: url("images/Categories/shampoo.png");
+    margin-left: 30px;
+}
+
+#category-kitchen-tools {
+    background-image: url("images/Categories/Kitchen Tools.png");
+    margin-left: 5px;
+}
+
+#category-art-easels {
+    background-image: url("images/Categories/Art Easels.jpg");
+}
+
+.category-img {
+    width: 80px;
+    height:80px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+
+
+
+
+
 
