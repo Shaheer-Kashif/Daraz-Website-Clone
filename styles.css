@@ -280,7 +280,64 @@ body {
     height:80px;
     background-size:contain;
     background-repeat: no-repeat;
+}
+
+
+.mainfooter {
+    display:flex;
+    justify-content: center;
+}
+
+.footpanel1 {
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    margin-top: 30px;
+}
+
+.country-section {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
     
+}
+#pakistan {
+    background-image: url("images/Countries Flag/Pakistan.png");
+}
+
+#bangladesh {
+    background-image: url("images/Countries Flag/Bangladesh.png");
+}
+
+#sri-lanka {
+    background-image: url("images/Countries Flag/Sri Lanka.png");
+}
+
+#myanmar {
+    background-image: url("images/Countries Flag/Myanmar.png");
+}
+
+#nepal {
+    background-image: url("images/Countries Flag/nepal.png");
+}
+
+.country-image {
+    width:25px;
+    height:25px;
+    margin-right: 5px;
+    background-size: cover;
+}
+
+.footpanel1 h4 {
+    color: rgb(248, 86, 6);
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+.footpanel1 a {
+    font-size: 0.9rem;
 }
 
 
