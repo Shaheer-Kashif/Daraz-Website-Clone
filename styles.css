@@ -229,6 +229,7 @@ body {
     width: 145px;
     height: 145px;
     margin:5px;
+    padding: 10px;
 }
 
 .categories:hover {
@@ -240,7 +241,7 @@ body {
 }
 
 #category-wardrobe {
-    background-image: url("images/Categories/Wardrobe-Furniture-PNG-Images-HD.png");
+    background-image: url("images/Categories/Wardrobe.png");
     margin-left: 8px;
 }
 
@@ -273,6 +274,40 @@ body {
 #category-fashion {
     background-image: url("images/Categories/fashion.png");
     margin-left: 15px;
+}
+
+#category-business {
+    background-image: url("images/Categories/Business.png");
+}
+
+#category-suits {
+    background-image: url("images/Categories/Suits.png");
+    margin-left: 30px;
+}
+
+#category-space-savers {
+    background-image: url("images/Categories/Space Saver.webp");
+}
+
+#category-headphones {
+    background-image: url("images/Categories/headphones.png");
+}
+
+#category-wallpaper {
+    background-image: url("images/Categories/Wallpapers.jpg");
+}
+
+#category-bottles {
+    background-image: url("images/Categories/Water Bottle.jpg");
+}
+
+#category-clips {
+    background-image: url("images/Categories/Clips.jpg");
+}
+
+#category-dispenser {
+    background-image: url("images/Categories/Dispenser.png");
+    margin-left: 25px;
 }
 
 .category-img {
@@ -363,6 +398,16 @@ body {
 .payment-method img {
     margin-right:5px;
     margin-bottom: 5px;
+}
+
+.exclusive-deals {
+    display: flex;
+    flex-direction: column;
+}
+
+#daraz-shopping {
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
 
 
