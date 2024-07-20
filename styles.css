@@ -11,7 +11,7 @@ body {
 .header-web {
     height: 90px;
     background-color: rgb(248, 86, 6);
-    color:white
+    color:white;
 }
 
 .nav-top-info {
@@ -203,21 +203,22 @@ body {
 
 .all-categories {
     margin-top: 30px;
+    margin-right: 9.1%;
+    margin-left: 9.1%;
 }
 
 .main-text {
-    margin-left: 9rem;
     margin-bottom: 0.8rem;
 }
 
 .category-first-section {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .category-second-section {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .categories {
@@ -232,12 +233,12 @@ body {
     padding: 10px;
 }
 
-.categories:hover {
+.item:hover {
     filter: drop-shadow(0 0 0.25rem rgb(187, 187, 187));
 }
+
 .categories .category-text {
     text-align: center;
-
 }
 
 #category-wardrobe {
@@ -317,20 +318,25 @@ body {
     background-repeat: no-repeat;
 }
 .for-you {
-    margin-top: 40px;
+    margin-top: 50px;
+    margin-left: 9.1%;
+    margin-right: 9.1%;
 }
 
 .cards-row {
+    
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+
 }
 
 .item-card {
     margin-right: 1.5%;
+    margin-bottom: 25px;
 }
 .card-desc {
-    width: 180px;
-    padding: 15px;
+    width: 190px;
+    padding: 10px;
     background-color: white;
 }
 
@@ -451,6 +457,12 @@ body {
     padding-top: 10px;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0,0.2));
+}
 
 
 
