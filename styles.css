@@ -160,6 +160,7 @@ body {
     display: flex;
     height:550px;
     background-image: url("images/hero-section.jpg");
+    position: relative;
     background-size: cover;
     justify-content: center;
     align-items: flex-end;
@@ -331,6 +332,8 @@ body {
 }
 
 .item-card {
+    display: flex;
+    flex-direction: column;
     margin-right: 1.5%;
     margin-bottom: 25px;
 }
